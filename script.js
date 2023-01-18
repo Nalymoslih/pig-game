@@ -55,7 +55,6 @@ btnRoll.addEventListener("click", function () {
       document.getElementById(`current--${activePlayer}`).textContent =
         currentScore;
     } else {
-      // Switch to next player
       switchPlayer();
     }
   }
