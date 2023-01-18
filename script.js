@@ -11,11 +11,9 @@ const diceEl = $(".dice");
 const btnNew = $(".btn--new");
 const btnRoll = $(".btn--roll");
 const btnHold = $(".btn--hold");
-// const score1El = document.getElementById("score--1");
 
 let scores, currentScore, activePlayer, playing;
 
-//Starting conditions
 const init = () => {
   scores = [0, 0];
   currentScore = 0;
